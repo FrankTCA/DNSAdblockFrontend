@@ -26,6 +26,7 @@ p {
     background-color: #9c9c9c;
     box-shadow: black 1px 1px;
     display: inline-block;
+    margin-left: 2em;
 }
 
 .theBody {

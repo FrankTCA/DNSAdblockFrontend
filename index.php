@@ -30,8 +30,7 @@ if (get_user_level() < 2) {
         </div>
     </div>
     <div class="theBody">
-        <p class="errorMsg"></p>
-        <div class="iconBodyHeader">
+        <div class="iconBodyHeader" id="firstHeader">
             <h2>Step 1: Log into your router</h2>
         </div>
         <div class="iconSet">
@@ -51,6 +50,7 @@ if (get_user_level() < 2) {
             <h2>Step 3: Paste the Following</h2>
         </div>
         <div class="iconSet">
+            <p class="errorMsg"></p>
             <p>Paste the following as your IPv4 DNS:</p>
             <br><div class="center">
                 <div class="copypaste">
